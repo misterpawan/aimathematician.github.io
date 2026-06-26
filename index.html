@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Mathematician | Formal mathematics for scientific progress</title>
+    <meta
+      name="description"
+      content="AI Mathematician develops AI tools for formal mathematics, Lean verification, and the scientific and engineering workflows that depend on mathematical language."
+    >
+    <meta name="theme-color" content="#0f1720">
+    <meta property="og:title" content="AI Mathematician">
+    <meta
+      property="og:description"
+      content="Building AI systems that help develop mathematics, formalize proofs, and accelerate science and engineering."
+    >
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://aimathematician.org/">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="AI Mathematician home">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <span>AI Mathematician</span>
+      </a>
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#why">Why</a>
+        <a href="#formalization">Formalization</a>
+        <a href="#demo">Lean demo</a>
+        <a href="#frontiers">Frontiers</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <p class="eyebrow">Mathematics, formal proof, and AI for science</p>
+          <h1>Building AI that helps develop mathematics.</h1>
+          <p class="hero-text">
+            Mathematics is the language in which science and engineering write their strongest
+            claims. AI Mathematician focuses on tools that help create, formalize, verify, and
+            apply that language at research scale.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#demo">See a Lean verification</a>
+            <a class="button secondary" href="#frontiers">Explore the agenda</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Mathematics connecting proof, computation, and science" role="img">
+          <svg viewBox="0 0 760 560" aria-hidden="true">
+            <defs>
+              <linearGradient id="panelGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#f8fbf8"></stop>
+                <stop offset="100%" stop-color="#dfe9e4"></stop>
+              </linearGradient>
+              <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#0a1117" flood-opacity=".18"></feDropShadow>
+              </filter>
+            </defs>
+            <rect x="18" y="18" width="724" height="524" rx="28" fill="url(#panelGlow)" filter="url(#softShadow)"></rect>
+            <path class="grid-line" d="M84 76v410M154 76v410M224 76v410M294 76v410M364 76v410M434 76v410M504 76v410M574 76v410M644 76v410"></path>
+            <path class="grid-line" d="M68 116h622M68 186h622M68 256h622M68 326h622M68 396h622M68 466h622"></path>
+
+            <g class="proof-panel">
+              <rect x="76" y="88" width="300" height="178" rx="12"></rect>
+              <path d="M108 132h118M108 164h204M108 196h168M108 228h220"></path>
+              <circle cx="330" cy="132" r="18"></circle>
+              <path d="M320 132l8 8 14-18"></path>
+            </g>
+
+            <g class="triangle">
+              <path d="M430 118l172 238H430z"></path>
+              <path d="M430 356h172"></path>
+              <path d="M430 118v238"></path>
+              <path d="M454 330h28v26"></path>
+              <text x="510" y="386">a^2 + b^2 = c^2</text>
+            </g>
+
+            <g class="network">
+              <path d="M110 360c90-86 172 84 256-6s144-44 250 52"></path>
+              <path d="M110 428c94-50 166 22 236-46s158-82 270-8"></path>
+              <circle cx="110" cy="360" r="8"></circle>
+              <circle cx="214" cy="398" r="8"></circle>
+              <circle cx="344" cy="382" r="8"></circle>
+              <circle cx="474" cy="338" r="8"></circle>
+              <circle cx="616" cy="406" r="8"></circle>
+              <circle cx="110" cy="428" r="8"></circle>
+              <circle cx="270" cy="420" r="8"></circle>
+              <circle cx="430" cy="360" r="8"></circle>
+              <circle cx="616" cy="374" r="8"></circle>
+            </g>
+
+            <g class="science-symbols">
+              <path d="M520 94c54 18 66 72 34 104s-86 22-104-30 18-92 70-74z"></path>
+              <path d="M496 126c26 20 46 34 76 48M484 176c44-34 82-54 118-66"></path>
+              <circle cx="496" cy="126" r="7"></circle>
+              <circle cx="572" cy="174" r="7"></circle>
+              <circle cx="602" cy="110" r="7"></circle>
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <section id="why" class="section section-two">
+        <div>
+          <p class="eyebrow">Why mathematics</p>
+          <h2>The common language behind proof, prediction, and design.</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            Mathematics has two complementary roles. In pure mathematics, claims are developed
+            structurally: definitions, lemmas, theorems, and proofs derive new knowledge from
+            first principles. In the sciences, hypotheses are written mathematically and then
+            tested against observation, experiment, simulation, and engineered behavior.
+          </p>
+          <p>
+            Both roles matter for future AI. A system that can reason with formal structure can
+            help verify proof steps. A system that can connect mathematical models with data can
+            help formulate better simulations, optimization problems, and scientific hypotheses.
+          </p>
+        </div>
+      </section>
+
+      <section id="formalization" class="section-band formalization">
+        <div class="section-heading">
+          <p class="eyebrow">Formalization</p>
+          <h2>From mathematical prose to machine-checked proof.</h2>
+          <p>
+            Lean and mathlib turn mathematical statements into executable objects. Definitions
+            become precise, proofs become checkable, and the verifier confirms whether every
+            inference follows from accepted foundations and imported results.
+          </p>
+        </div>
+
+        <div class="flow-grid">
+          <article>
+            <span class="step-number">01</span>
+            <h3>State the object</h3>
+            <p>Translate the claim into a typed formal statement with explicit assumptions.</p>
+          </article>
+          <article>
+            <span class="step-number">02</span>
+            <h3>Build the proof</h3>
+            <p>Use definitions, lemmas, tactics, and library results to construct the argument.</p>
+          </article>
+          <article>
+            <span class="step-number">03</span>
+            <h3>Verify the result</h3>
+            <p>Lean checks the proof term and rejects gaps, type errors, or unsupported steps.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="demo" class="section demo">
+        <div class="demo-intro">
+          <p class="eyebrow">Simple demo</p>
+          <h2>A concrete theorem, written for a verifier.</h2>
+          <p>
+            The proof below is intentionally simple. It shows the core pattern: a mathematical
+            statement is expressed in Lean syntax, and Lean validates that the proof really
+            establishes the statement.
+          </p>
+        </div>
+
+        <div class="demo-layout">
+          <div class="code-window" aria-label="Lean theorem example">
+            <div class="window-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+              <strong>Lean</strong>
+            </div>
+            <pre><code>import Mathlib
+
+theorem pythagorean_triple :
+    3 ^ 2 + 4 ^ 2 = 5 ^ 2 := by
+  norm_num</code></pre>
+          </div>
+
+          <aside class="verify-card" aria-label="Verification result">
+            <span class="verify-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>
+            <h3>Verified</h3>
+            <p>
+              Lean checks the statement, expands the numerals and powers, and accepts the proof
+              only when the normalized arithmetic establishes the equality. If the proof term is
+              wrong, the theorem does not compile.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-band contrast">
+        <div class="section-heading">
+          <p class="eyebrow">Two modes of mathematical knowledge</p>
+          <h2>Proof and observation reinforce different kinds of truth.</h2>
+        </div>
+        <div class="mode-grid">
+          <article>
+            <h3>Self-contained mathematics</h3>
+            <p>
+              Definitions and axioms support long chains of deductive reasoning. Formal systems
+              let AI tools search, fill, refactor, and verify those chains with much tighter
+              feedback than informal prose alone.
+            </p>
+          </article>
+          <article>
+            <h3>Mathematics for nature</h3>
+            <p>
+              Physics, chemistry, biology, engineering, and simulation express hypotheses in
+              equations, operators, constraints, and objectives. These models are validated by
+              measurement, prediction, and real-world performance.
+            </p>
+          </article>
+          <article>
+            <h3>Machine learning as a new modeling layer</h3>
+            <p>
+              Neural networks often solve useful problems without exposing first principles in the
+              same way a conservation law or partial differential equation does. The frontier is to
+              connect learned behavior with mathematical structure, explanation, and verification.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="frontiers" class="section frontiers">
+        <div class="section-heading">
+          <p class="eyebrow">Research agenda</p>
+          <h2>AI for the development and use of mathematics.</h2>
+          <p>
+            The project tracks tools and ideas that accelerate both formal mathematical research
+            and the applied mathematics that drives scientific progress.
+          </p>
+        </div>
+        <div class="frontier-list">
+          <article>
+            <h3>Formal proof assistants</h3>
+            <p>Lean, mathlib, theorem proving, proof search, tactic generation, and library-scale formalization.</p>
+          </article>
+          <article>
+            <h3>Mathematical discovery</h3>
+            <p>Conjecture generation, analogy, symbolic computation, automated lemma discovery, and proof planning.</p>
+          </article>
+          <article>
+            <h3>Scientific modeling</h3>
+            <p>PDEs, optimization, inverse problems, simulation, conservation laws, uncertainty, and numerical validation.</p>
+          </article>
+          <article>
+            <h3>Learning systems</h3>
+            <p>Neural models that help translate between informal reasoning, formal proof, code, and experimental evidence.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>AI Mathematician</span>
+      <span>Formal mathematics for future science and engineering.</span>
+    </footer>
+  </body>
+</html>
